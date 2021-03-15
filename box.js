@@ -4,7 +4,7 @@ class box
         var options = {
             'restitution':1.0,
             'friction':0.3,
-            'density':1.0
+            'density':1.5
         }
         this.body = Bodies.rectangle(x,y,width,height,options);
         this.width=width
